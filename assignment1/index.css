@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: ivory;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    padding: 20px;
+    border:2px solid green;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+    /* border:10px solid firebrick; */
+
+
+}
+.button{
+    font-size: 20px;
+    margin-left: 10%;
+    padding: 5px
+}
+
+.parent_div{
+    
+    
+    background-color: white;
+    width:30%;
+    height: fit-content;
+    /* border: 1px; */
+    
+    /* border-radius: 10%; */
+    /* padding: 10px; */
+
+    box-shadow: 10px 5px 5px grey;;
+    border: 5px solid black;
+    overflow: hidden;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+.parent_div h3 {
+    
+    padding-left:10px;
+}
+.parent_div a {
+    text-decoration: none;
+    color:skyblue
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.grey{
+    color:grey;
+    padding: 10px;
+}
+.parent_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+    padding: 10px;
+    
+}
+
+
+
+.img_container2{
+    position: relative;
+}
+.textToOverlap{
+    position: absolute;
+    top: 5em;
+    padding: 2px 0px;
+    color: white;
+    
+    
+    /* bottom: -1; */
+}
+.textToOverlap2{
+    position: absolute;
+    top: 7em;
+    color:white;
+
+}
+.thirdDivChange{
+    margin: 2px;
+    margin-top: 8px;
+    
+    
+}
+.sixthDiv{
+    display: flex;
+    flex-direction: row;
+}
+.insideDiv6{
+    padding: 30px 0px;
+}
